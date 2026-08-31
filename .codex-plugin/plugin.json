@@ -1,0 +1,41 @@
+{
+  "name": "browser-act",
+  "version": "0.1.0",
+  "description": "Browser Act skills for authorized web data extraction and browser automation via the browser-act CLI.",
+  "author": {
+    "name": "BrowserAct",
+    "email": "support@browseract.com",
+    "url": "https://www.browseract.com"
+  },
+  "homepage": "https://www.browseract.com",
+  "repository": "https://github.com/browser-act/codex-browser-act-plugin",
+  "license": "MIT",
+  "keywords": [
+    "browser",
+    "web-scraping",
+    "chrome",
+    "playwright",
+    "crawler"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "BrowserAct",
+    "composerIcon": "./assets/composer-icon.png",
+    "logo": "./assets/logo.png",
+    "shortDescription": "Web browser automation",
+    "longDescription": "Browser Act CLI workflow skills for Codex. It gives agents a browser layer for real websites, so they can adapt to real scenarios, run multiple tasks safely, and return clean web data for reasoning. Use BrowserAct when an agent needs to browse, click, extract, fill forms, upload files, work inside logged-in sites, or run repeatable browser workflows. Requires the Browser Act CLI, which the skill offers to install after user confirmation.",
+    "developerName": "BrowserAct",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.browseract.com",
+    "privacyPolicyURL": "https://www.browseract.com/privacy-policy",
+    "termsOfServiceURL": "https://www.browseract.com/terms-of-service",
+    "defaultPrompt": [
+      "Use BrowserAct to collect the top 20 Amazon US wireless headphone listings. Return data in a CSV file.",
+      "Use BrowserAct to summarize the 10 latest videos of @OpenAI on youtube. Return data in a CSV file."
+    ]
+  }
+}
