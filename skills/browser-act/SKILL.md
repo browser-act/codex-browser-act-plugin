@@ -1,6 +1,6 @@
 ---
 name: browser-act
-description: "Use for authorized, one-off browser tasks on user-provided pages that require JavaScript rendering, content extraction, or screenshots."
+description: "Runs a browser to extract rendered website data, interact with pages, and capture screenshots."
 allowed-tools: Bash(browser-act:*)
 ---
 
@@ -22,8 +22,7 @@ Install: `uv tool install browser-act-cli --python 3.12`
 
 ## Start here
 
-This file is a discovery stub, not the usage guide. After loading this
-skill, immediately run the following to get the actual workflow content:
+After loading this skill, immediately run the following to get the actual workflow content:
 
 ```bash
 browser-act get-skills core --skill-version 2.0.2

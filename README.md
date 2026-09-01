@@ -11,7 +11,7 @@ The repository root is the plugin root. Its `skills/` directory contains exactly
 | `browser-act` | Runs a browser to extract rendered website data, interact with pages, and capture screenshots. |
 | `browser-act-skill-forge` | Explores a website's implementation path, then generates and verifies reusable, site-specific Skill packages. |
 
-`browser-act` is a discovery stub. After it loads, retrieve the matching workflow instructions from the installed CLI:
+`browser-act` is a browser automation Skill that uses the BrowserAct CLI to extract rendered website data, perform page interactions, and capture screenshots.
 
 ```bash
 browser-act get-skills core --skill-version 2.0.2
