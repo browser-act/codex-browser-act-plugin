@@ -31,7 +31,6 @@ Install the CLI when it is not already available:
 uv tool install browser-act-cli --python 3.12
 ```
 
-The skill-forge workflow also checks that its API Key is configured before exploring a site. Follow the workflow guidance if configuration is required.
 
 ## Repository contents
 
