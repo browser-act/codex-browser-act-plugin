@@ -1,7 +1,7 @@
 {
   "name": "browser-act",
   "version": "0.1.0",
-  "description": "Browser Act skills for authorized web data extraction and browser automation via the browser-act CLI.",
+  "description": "BrowserAct skills for browser automation and reusable website-skill generation via the browser-act CLI.",
   "author": {
     "name": "BrowserAct",
     "email": "support@browseract.com",
@@ -15,15 +15,17 @@
     "web-scraping",
     "chrome",
     "playwright",
-    "crawler"
+    "crawler",
+    "skill-generation",
+    "website-automation"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "BrowserAct",
     "composerIcon": "./assets/composer-icon.png",
     "logo": "./assets/logo.png",
-    "shortDescription": "Web browser automation",
-    "longDescription": "Browser Act CLI workflow skills for Codex. It gives agents a browser layer for real websites, so they can adapt to real scenarios, run multiple tasks safely, and return clean web data for reasoning. Use BrowserAct when an agent needs to browse, click, extract, fill forms, upload files, work inside logged-in sites, or run repeatable browser workflows. Requires the Browser Act CLI, which the skill offers to install after user confirmation.",
+    "shortDescription": "Browser automation and Skill generation",
+    "longDescription": "BrowserAct provides browser automation through the browser-act CLI and a workflow for exploring websites and generating reusable Skills. Use it for rendered web content, browser workflows, or building a reusable site-specific Skill after exploration.",
     "developerName": "BrowserAct",
     "category": "Productivity",
     "capabilities": [
@@ -34,8 +36,8 @@
     "privacyPolicyURL": "https://www.browseract.com/privacy-policy",
     "termsOfServiceURL": "https://www.browseract.com/terms-of-service",
     "defaultPrompt": [
-      "Use BrowserAct to collect the top 20 Amazon US wireless headphone listings. Return data in a CSV file.",
-      "Use BrowserAct to summarize the 10 latest videos of @OpenAI on youtube. Return data in a CSV file."
+      "Use BrowserAct to extract the rendered content from this URL and summarize the key information.",
+      "Use browser-act-skill-forge to create a reusable Skill for collecting product listings from a specified website."
     ]
   }
 }
