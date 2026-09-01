@@ -8,13 +8,15 @@ allowed-tools: Bash(browser-act:*)
 
 Built by [BrowserAct](https://www.browseract.com) — Browser automation CLI for AI agents · [GitHub](https://github.com/browser-act/skills/tree/main/browser-act)
 
-Runs a browser engine for JavaScript rendering, content extraction, and
-screenshots.
+Runs a full browser engine: navigation & interaction, data extraction & network
+capture, screenshots, form automation, and human-agent collaboration.
 
 ### Features
 
 - Rendered content extraction — retrieve content from user-provided JavaScript-rendered pages
+- Complex interaction — DOM content extraction, screenshots, form filling, file upload
 - Screenshots — inspect page layout, styling, and rendered state
+- Safety controls — Confirmation Gate protocol requires explicit user approval before browser creation, deletion, and sensitive operations
 
 Install: `uv tool install browser-act-cli --python 3.12`
 
